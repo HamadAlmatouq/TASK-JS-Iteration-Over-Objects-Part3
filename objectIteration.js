@@ -61,7 +61,7 @@ function countCitiesInCountry(cities, country) {
   // write your code here...
   return cities.filter((city) => city.country === country).length;
 }
-// console.log(countCitiesInCountry(cities, "France")); // Outputs: 1
+// console.log(countCitiesInCountry(cities, "France")); // Outputs: 1 ...
 
 module.exports = {
   getCityPopulation,
